@@ -1,0 +1,13 @@
+{
+  "schema_version": 2,
+  "python_target": "3.12",
+  "complete_transitive_lock": false,
+  "hashes_required": false,
+  "generated_by": "direct-pin-release-candidate",
+  "reason": "Production requires pip-tools hash locks generated and verified in a connected CPython 3.12 Linux environment.",
+  "generation_command": "python scripts/generate_dependency_locks.py",
+  "verification_command": "python scripts/verify_dependency_lock.py --require-hashes",
+  "attestation_command": "python scripts/mark_dependency_lock_complete.py",
+  "candidate_installable": true,
+  "production_attested": false
+}
